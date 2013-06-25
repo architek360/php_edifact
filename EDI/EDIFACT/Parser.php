@@ -361,12 +361,12 @@ class EDI_EDIFACT_Parser extends EDI_Common_Parser
             list($sId,) = $data[0];
             //var_dump($data[0]);
             //if (!isset($children[$i])) continue;
-            /**
+/**
             echo "i = $i " . PHP_EOL;
             echo "sId = $sId " . PHP_EOL;
             echo "nodeid = " . (string)$children[$i]['id'] . PHP_EOL;
             echo "name = " . (string)$children[$i]->getName() . PHP_EOL;
-            **/
+**/
             if (!isset($children[$i])) {
                 throw new EDI_Exception(
                     sprintf('invalid token "%s" in message "%s"',

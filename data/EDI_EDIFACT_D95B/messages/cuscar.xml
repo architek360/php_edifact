@@ -26,6 +26,7 @@
         <segment id="SEL" maxrepeat="9"/>
         <segment id="NAD" maxrepeat="9"/>
         <segment id="GIS" maxrepeat="9"/>
+        <segment id="LOC" maxrepeat="9"/>
         <group id="SG3" maxrepeat="9">
             <segment id="TMP" maxrepeat="1" required="true"/>
             <segment id="RNG" maxrepeat="1"/>
@@ -61,7 +62,7 @@
                 <segment id="QTY" maxrepeat="1" required="true"/>
                 <segment id="FTX" maxrepeat="9"/>
             </group>
-            <group id="SG10" maxrepeat="9999" required="true">
+            <group id="SG10" maxrepeat="9999" required="false">
                 <segment id="GID" maxrepeat="1" required="true"/>
                 <segment id="PAC" maxrepeat="9"/>
                 <segment id="HAN" maxrepeat="9"/>
